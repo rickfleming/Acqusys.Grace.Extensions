@@ -3,11 +3,14 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Title>Helpful extensions and configuration loading for Grace (DependencyInjection)</Title>
+        <Title>Acqusys.Grace.Extensions</Title>
         <Authors>Acqusys</Authors>
         <Copyright>Copyright (C) 2019 Richard A. Fleming. All Rights Reserved.</Copyright>
         <PackageLicenseUrl>https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt</PackageLicenseUrl>
         <Description>Helpful extensions and configuration loading for Grace (DependencyInjection)</Description>
+        <PackageVersion>1.0.1</PackageVersion>
+        <PackageProjectUrl>https://github.com/rickfleming/Acqusys.Grace.Extensions</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/rickfleming/Acqusys.Grace.Extensions</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
