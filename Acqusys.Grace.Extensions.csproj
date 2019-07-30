@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Helpful extensions and configuration loading for Grace (DependencyInjection)</Title>
+        <Authors>Acqusys</Authors>
+        <Copyright>Copyright (C) 2019 Richard A. Fleming. All Rights Reserved.</Copyright>
+        <PackageLicenseUrl>https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt</PackageLicenseUrl>
+        <Description>Helpful extensions and configuration loading for Grace (DependencyInjection)</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Grace" Version="7.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.2.4" />
+    </ItemGroup>
+
+</Project>
